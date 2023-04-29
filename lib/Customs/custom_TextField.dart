@@ -39,11 +39,11 @@ class Custom_TextField extends StatelessWidget {
             // borderSide: BorderSide(color: Colors.black26),
             gapPadding: 20,
           ),
-          // border: OutlineInputBorder(
-          //   borderRadius: BorderRadius.circular(20),
-          //   borderSide: BorderSide(color: Colors.black),
-          //   gapPadding: 20,
-          // ),
+          border: OutlineInputBorder(
+            borderRadius: BorderRadius.circular(20),
+            borderSide: BorderSide(color: Colors.black),
+            gapPadding: 20,
+          ),
           enabledBorder: OutlineInputBorder(
             borderSide: BorderSide(
               color: Colors.black26,

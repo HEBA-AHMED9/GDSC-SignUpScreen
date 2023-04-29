@@ -173,7 +173,7 @@ class RegisterPage extends StatelessWidget {
       return 'your Password is short';
     } 
     else if (passwordController!.isEmpty){
-      return 'Enter your Password ,Please !';
+      return 'Enter your Password';
     }
     else {
       return null;

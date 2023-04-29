@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'Screens/RegesterPage.dart';
 
 
-void main() async{
+void main(){
   
   runApp(const mainPage());
 }
