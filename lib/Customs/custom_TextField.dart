@@ -20,7 +20,7 @@ class Custom_TextField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextFormField(
+    return TextFormField( 
       validator: validator,
       controller: controller,
       obscureText: obscur!,

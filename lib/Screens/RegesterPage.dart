@@ -87,7 +87,17 @@ class RegisterPage extends StatelessWidget {
               Custom_TextField(
                 text: 'Password',
                 icoon: const Icon(Icons.password_sharp),
-                iconPass: const Icon(Icons.remove_red_eye_sharp),
+                iconPass: const Icon(Icons.remove_red_eye_sharp,),
+                obscur: true,
+                controller: passwordController, 
+                validator: passwordValidator,
+              ),
+              const SizedBox(
+                height: 10,
+              ),
+               Custom_TextField(
+                text: 'Confirmed Password',
+                icoon: const Icon(Icons.sync_lock),
                 obscur: true,
                 controller: passwordController, 
                 validator: passwordValidator,

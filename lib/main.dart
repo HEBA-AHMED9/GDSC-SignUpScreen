@@ -3,7 +3,6 @@ import 'Screens/RegesterPage.dart';
 
 
 void main(){
-  
   runApp(const mainPage());
 }
 class mainPage extends StatelessWidget {
